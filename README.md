@@ -30,3 +30,13 @@ It's prefeered in both cases that you open a pull request unless you are sure th
 
 The spike category will contain meta-ebuilds that lists dependencies required for the distro. For example, *spike/spike* contains all the pentesting tools that are required inside the distribution and will request also the needed atoms for the release process (spike/spike-menu, spike/spike-version, ...).
 When you feel a tool should be included in the distribution, open an issue here, so would be processed/tested properly before going upstream.
+
+## Additions
+
+Please feel free to add to this doc rules and policies as you see fit. Discussion can take place on irc.
+
+## IRC
+
+Server: *chat.freenode.net*
+
+Channel: *#spike-pentesting*
