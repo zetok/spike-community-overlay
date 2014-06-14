@@ -40,3 +40,4 @@ Please feel free to add to this doc rules and policies as you see fit. Discussio
 Server: *chat.freenode.net*
 
 Channel: *#spike-pentesting*
+ Sabayon-zorro-overlay , many things are test quality thier , you can playwith , thier **Ideas**, as it was going to mainly a sabayon base with pure-pentoo and fixes. allthough not automated by the SPIKE build service, you can shove us shinny ebuilds for a look thier, esp if quality is more ALPA/Beta.... however with spike thier are 3 of us, vs one werry tinker doing it all as a lone Graduate Degree  Reserch project. ~~Necrose99~~ 
