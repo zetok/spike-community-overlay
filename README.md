@@ -31,6 +31,11 @@ It's prefeered in both cases that you open a pull request unless you are sure th
 The spike category will contain meta-ebuilds that lists dependencies required for the distro. For example, *spike/spike* contains all the pentesting tools that are required inside the distribution and will request also the needed atoms for the release process (spike/spike-menu, spike/spike-version, ...).
 When you feel a tool should be included in the distribution, open an issue here, so would be processed/tested properly before going upstream.
 
+## Experimental Overlay
+
+If you need to test or you can play with you can use the [Sabayon-Zorro-Overlay](https://github.com/Sabayon-Labs/Sabayon-Zorro-Overlay), thier **Ideas**, as it was going to mainly a sabayon base with pure-pentoo and fixes. This overlay is not automated by the SPIKE build service, you can shove us shinny ebuilds for a look thier, also if quality is more ALPA/Beta.... many spin flavors vers only one. use the OLD zorro repo for stuff we may get too. **{ Necrose99 }**
+
+
 ## Additions
 
 Please feel free to add to this doc rules and policies as you see fit. Discussion can take place on irc.
@@ -40,5 +45,3 @@ Please feel free to add to this doc rules and policies as you see fit. Discussio
 Server: *chat.freenode.net*
 
 Channel: *#spike-pentesting*
- <br>
- <br> Sabayon-zorro-overlay , many things are test quality thier , you can playwith , thier **Ideas**, as it was going to  <br>mainly a sabayon base with pure-pentoo and fixes. allthough not automated by the SPIKE build service, you can shove  <br>us shinny ebuilds for a look thier, esp if quality is more ALPA/Beta.... however with spike thier are 3 of us, vs one  <br>werry tinker doing it all as a lone Graduate Degree  Reserch project. <b>~~{ Necrose99 }~~</b> many spin flavors vers only one. use the OLD zorro repo for stuff we may get too. 
