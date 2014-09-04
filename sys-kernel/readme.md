@@ -11,7 +11,7 @@ https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-Dwivedi-update.pdf
 as well ISCSI can be a nasty little RISK vector. 
 
 <p> in time more security patches or sabayon-spike-Tinfoil (ie an especially GRSEC patched) 
-and <b> wifi from wireless comapt pentesting. <b> for now i've swiped wireless compat ebuilds form pentoo and version bumped. in time Intergrating them into a mainline sabayon-spike kernel 
+and <b> wifi from wireless comapt pentesting. </b> for now i've swiped wireless compat ebuilds form pentoo and version bumped. in time Intergrating them into a mainline sabayon-spike kernel 
 
 I dont claim to be a kernel Foo expert, but least i'll give anything a shot. 
 for now works in progress. 
