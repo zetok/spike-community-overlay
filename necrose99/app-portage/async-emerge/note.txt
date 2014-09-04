@@ -1,3 +1,8 @@
+This is update scripts which are make binary packages needed for Gentoo linux update.
+way the repo is setup it can be an irritating pest. layman methoid is old.
+https://code.google.com/p/async-emerge/
+
+
 realy would prefeer a svn yank to repo. 
 
-kernel automate build script, and a build new spike-4-sabayon set of scripts and push to repos.
+to do make : kernel automate build script, and a build new spike-4-sabayon set of scripts and push to bin-repos.
