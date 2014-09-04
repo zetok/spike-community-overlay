@@ -1,0 +1,3 @@
+realy would prefeer a svn yank to repo. 
+
+kernel automate build script, and a build new spike-4-sabayon set of scripts and push to repos.
