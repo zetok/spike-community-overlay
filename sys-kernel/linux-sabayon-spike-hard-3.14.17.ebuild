@@ -13,10 +13,10 @@ K_SABKERNEL_PATCH_UPSTREAM_TARBALL="1"
 K_KERNEL_NEW_VERSIONING="1"
 
 inherit sabayon-kernel
-inherit wireless-compatible #injection
+#inherit wireless-compatible #injection
 #https://github.com/Sabayon-Labs/spike-community-overlay/blob/master/necrose99/eclass/wireless-compatible.eclass
-inherit grsecurity
-#https://github.com/Sabayon-Labs/spike-community-overlay/blob/master/necrose99/eclass/grsecurity.eclass
+inherit grsec
+#https://github.com/Sabayon-Labs/spike-community-overlay/blob/master/eclass/grsec.eclass
 
 
 KEYWORDS="~amd64 ~x86"
