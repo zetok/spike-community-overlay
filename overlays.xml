@@ -6,7 +6,7 @@
     <description>spike-community-overlay</description>
     <homepage>http://spike-pentesting.org//homepage>
     <owner type="person">
-      <email>mudler@dark-lab.net,skullbocks@dark-lab.net,mrlawren9@my.wgu.edu</email>
+      <email>mudler@dark-lab.net,skullbocks@dark-lab.net,mike@michaellawrenceit.com</email>
       <name>Mudler,Skullbocks</name>
     </owner>
     <source type="git">git@github.com:Sabayon-Labs/spike-community-overlay.git</source>

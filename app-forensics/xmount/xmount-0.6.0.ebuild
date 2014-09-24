@@ -6,7 +6,8 @@ EAPI=4
 
 DESCRIPTION="Convert on-the-fly between multiple input and output harddisk image types."
 HOMEPAGE="https://www.pinguin.lu/"
-SRC_URI="http://files.pinguin.lu/projects/${P}.tar.gz"
+SRC_URI="http://files.pinguin.lu/${P}.tar.gz"
+
 
 LICENSE="GPL-3"
 SLOT="0"
