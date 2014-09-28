@@ -3,8 +3,8 @@
 # $Header: $
 
 DESCRIPTION="Scans a disk image (or any other file) and extracts useful information — without parsing the file system."
-HOMEPAGE="http://afflib.org/software/bulk_extractor"
-SRC_URI="http://afflib.org/downloads/${P}.tar.gz"
+HOMEPAGE="https://github.com/simsong/bulk_extractor"
+SRC_URI="http://digitalcorpora.org/downloads/bulk_extractor/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
