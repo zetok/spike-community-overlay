@@ -13,8 +13,8 @@ ESVN_REPO_URI="https://github.com/derv82/wifite"
 ESVN_PROJECT="wifite-snapshot"
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
-IUSE="python"
+KEYWORDS="alpha amd64 hppa ia64 ppc ppc64 sparc x86"
+
 
 #DebinaDeps=aircrack-ng airmon-ng,aireplay-ng ,packetforge-ng  (Wierless injection patches)
 #DebinaODeps=reaver  pyrit cowpatty  ## not as required Wifite uses cowpatty (if found) to detect handshakes.
@@ -33,11 +33,16 @@ RDEPEND="net-wireless/aircrack-ng
 ##/usr/bin/wifite.py
 ### chmod +x wifite.py
 ## do docu install readme.md too docs conversion ??? (how?) dodoc doman...... 
-    
-	dodir /usr/bin/
+
+src_install() {
+        dodir /usr/bin/
 	exeinto /usr/bin/
     doexe wifite.py
     cp -R "${S}/" "${D}/" || die "Install failed!"
+        prepalldocs README* 
+		prepallinfo README*
+		prepallman README*
+}
 
 pkg_postinst() {
 einfo "wifite is installed happy pen-testing.... , Be sure   the readme"
