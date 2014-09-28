@@ -3,8 +3,8 @@
 # $Header: $
 
 DESCRIPTION="Conducts Internet measurement tasks to large numbers of IPv4 and IPv6 addresses, in parallel, to fill a specified packets-per-second rate."
-HOMEPAGE="http://www.wand.net.nz/scamper/"
-SRC_URI="http://www.wand.net.nz/scamper/scamper-cvs-20110217.tar.gz"
+HOMEPAGE="http://www.caida.org/tools/measurement/scamper/"
+SRC_URI="http://www.caida.org/tools/measurement/scamper/code/scamper-cvs-20140530.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
