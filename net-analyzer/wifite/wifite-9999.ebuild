@@ -46,6 +46,6 @@ src_install() {
 }
 
 pkg_postinst() {
-einfo "wifite is installed happy pen-testing.... , Be sure   the readme"
+einfo "wifite is installed happy pen-testing.... , Be sure look at the readme for info on use"
 
 }
