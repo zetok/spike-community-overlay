@@ -29,7 +29,6 @@ DEPEND="dev-cpp/pstreams
 	media-libs/alsa-lib
 	app-crypt/mhash
 	app-crypt/mcrypt"
-	
 RDEPEND="${DEPEND}
 	"
 
