@@ -27,5 +27,8 @@ then
 elif  >=virtual/linux-kernel-0
 	>=virtual/linux-sources-0"
 DEPEND="${RDEPEND}
-## no eligant means to if sabayon-kernel or virtual-(IE gentoo) or spike kerenl (sabayon/gentoo var)preffered our kernnel
-## Else gentoo's or etc. pitty thier isnt an eassier automagical kernel probe and make but tinderbox will chew & make in ourcase
+## no eligant means to if sabayon-kernel or virtual-(IE gentoo) 
+#or our preffered spike kerenl (sabayon/gentoo var) slighly hardened & Pentesty var of sabayon defacto kernel
+## Else gentoo's or etc. 
+#pitty thier isnt an eassier automagical kernel probe/kernel-SRC's probe and make We all have diff kernel flavor tastes.
+# but perl/APP:Witchcraft CI-tinderbox will chew & make bin-packages in ourcase
