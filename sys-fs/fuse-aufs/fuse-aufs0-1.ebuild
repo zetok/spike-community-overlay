@@ -24,5 +24,6 @@ RDEPEND="sys-fs/aufs3
 	sys-kernel/spike-sources
 	sys-kernel/linux-spike"
 DEPEND="${RDEPEND}
-
+## no eligant means to if sabayon-kernel or virtual-(IE gentoo) or spike kerenl (sabayon/gentoo var)preffered our kernnel
+## Else gentoo's or etc.
 
