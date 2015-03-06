@@ -41,3 +41,5 @@ Server: *chat.freenode.net*
 
 Channel: *#spike-pentesting*
 <br>Channel: *#spike-pentesting-dev*  dev-chat &  Server Build or push : reports pasite.org go here.... 
+
+layman -f -a https://raw.githubusercontent.com/Sabayon-Labs/spike-community-overlay/master/overlays.xml
