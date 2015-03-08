@@ -5,7 +5,7 @@
 # layman -f -a https://raw.githubusercontent.com/Sabayon-Labs/spike-community-overlay/master/overlays.xml
 # Spike-pentesting.org a Gentoo & Sabayon Based Pentest Distribution. 
 # necrose99 Michael R. Lawence
-## no eligant means to if sabayon-kernel or virtual-(IE gentoo) 
+## Wishlist:no eligant means to if sabayon-kernel or virtual-(IE gentoo) 
 #or our preffered spike kerenl (sabayon/gentoo var) slighly hardened & Pentesty var of sabayon defacto kernel
 ## Else gentoo's or etc. 
 #pitty thier isnt an eassier automagical kernel probe/kernel-SRC's probe and make We all have diff kernel flavor tastes.
