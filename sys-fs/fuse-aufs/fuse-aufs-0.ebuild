@@ -32,3 +32,5 @@ DEPEND="${RDEPEND}
 ## Else gentoo's or etc. 
 #pitty thier isnt an eassier automagical kernel probe/kernel-SRC's probe and make We all have diff kernel flavor tastes.
 # but perl/APP:Witchcraft CI-tinderbox will chew & make bin-packages in ourcase
+# USE="+recursion"  for /usr/src/$LINUX-{$wildcard}-{$wildversion} 
+# find and try and build the fuse for them if aufs3 modules aint built when posible... 
