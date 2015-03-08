@@ -1,0 +1,4 @@
+
+System notice Gitorious is being acquired by GitLab and gitorious.org will shut down end of May. Read about it
+
+whith me hunting for Forensic or Security ebuilds I'll keep the snapshot... 
