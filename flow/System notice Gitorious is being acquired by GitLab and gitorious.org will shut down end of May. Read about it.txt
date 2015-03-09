@@ -1,4 +1,8 @@
-
 System notice Gitorious is being acquired by GitLab and gitorious.org will shut down end of May. Read about it
 
-whith me hunting for Forensic or Security ebuilds I'll keep the snapshot... 
+http://gpo.zugaina.org/app-forensics/vinetto
+
+http://gpo.zugaina.org/Overlays/flow
+
+
+for now I'd like to see if items build and not let them die....if user snozzes
