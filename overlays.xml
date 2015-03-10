@@ -9,8 +9,8 @@
       <email>mudler@dark-lab.net,skullbocks@dark-lab.net,mike@michaellawrenceit.com</email>
       <name>Mudler,Skullbocks</name>
     </owner>
-    <source type="git">git@github.com:Sabayon-Labs/spike-community-overlay.git</source>
     <source type="git">https://github.com/Sabayon-Labs/spike-community-overlay.git</source>
+    <source type="git">git@github.com:Sabayon-Labs/spike-community-overlay.git</source>
     <feed>https://github.com/Sabayon-Labs/spike-community-overlay</feed>
     <feed>https://github.com/Sabayon-Labs/spike-community-overlay//rss</feed>
   </repo>
