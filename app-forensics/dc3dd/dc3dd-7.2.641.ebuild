@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="A patched version of GNU dd to include a number of features useful for computer forensics."
+DESCRIPTION="patched version of GNU dd to include a number of features useful for computer forensics"
 HOMEPAGE="http://dc3dd.sourceforge.net/"
 SRC_URI="mirror://sourceforge/dc3dd/${P}.tar.bz2"
 
@@ -10,12 +10,10 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~x86"
 IUSE="nls"
-EAPI=2
+EAPI=5
 
 RDEPEND=""
 DEPEND="nls? ( sys-devel/gettext )"
-
-inherit eutils
 
 src_configure() {
 	econf \

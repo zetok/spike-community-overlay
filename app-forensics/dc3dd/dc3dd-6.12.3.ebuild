@@ -10,7 +10,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~x86"
 IUSE="nls"
-EAPI=2
+EAPI=5
 
 RDEPEND=""
 DEPEND="nls? ( sys-devel/gettext )"

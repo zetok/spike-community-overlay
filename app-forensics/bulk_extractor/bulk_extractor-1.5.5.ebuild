@@ -10,7 +10,7 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
-EAPI=2
+EAPI=5
 
 DEPEND="media-gfx/exiv2
         sys-libs/zlib
