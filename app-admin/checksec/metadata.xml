@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+	<!-- Proxy maintainer. -->
+		<email>Mike@michaellawrenceit.com</email>
+		<name>Michael Lawrence Necrose99</name>
+	</maintainer>
+	<longdescription lang="en">Tests which standard Linux kernel and PaX security features are in use
+	Modern Linux distributions offer some mitigation techniques to make it harder to exploit software vulnerabilities reliably. 
+	Mitigations such as RELRO, NoExecute (NX), Stack Canaries, 
+	Address Space Layout Randomization (ASLR) and Position Independent Executables (PIE) have made reliably exploiting any vulnerabilities that do exist far more challenging. 
+	The checksec.sh script is designed to test what standard Linux OS and PaX security features are being used.</longdescription>
+	<upstream>
+		<remote-id type="http://www.trapkit.de/tools/checksec.html">checksec.sh</remote-id>
+	</upstream>
+</pkgmetadata>
