@@ -1,0 +1,6 @@
+app-misc/sabayon-live,  
+spike/spike-skel,  
+spike/spike-version,  
+spike/spike-enlightenment,  
+spike/spike-menu,  
+spike/spike,

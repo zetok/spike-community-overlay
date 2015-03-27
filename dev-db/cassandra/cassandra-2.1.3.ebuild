@@ -2,14 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-JAVA_PKG_IUSE="doc"
 EAPI=2
 
 DESCRIPTION="A highly scalable second-generation distributed database"
 HOMEPAGE="http://cassandra.apache.org/"
 SRC_URI="mirror://apache/cassandra/2.0.10/apache-cassandra-2.0.10-bin.tar.gz"
 S="${WORKDIR}/apache-cassandra-2.0.10-src.tar.gz"
-
+JAVA_PKG_IUSE="doc"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"

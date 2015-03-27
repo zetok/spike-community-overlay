@@ -2,8 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-JAVA_PKG_IUSE="doc"
-EAPI=2
+EAPI=5
 
 DESCRIPTION="A highly scalable second-generation distributed database"
 HOMEPAGE="http://cassandra.apache.org/"
@@ -14,7 +13,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE="doc"
-
+JAVA_PKG_IUSE="doc"
 DEPEND=">=virtual/jdk-1.7 dev-java/ant"
 RDEPEND=">=virtual/jre-1.7
 	!dev-db/cassandra-bin
