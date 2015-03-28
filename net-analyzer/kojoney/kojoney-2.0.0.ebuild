@@ -10,6 +10,7 @@ inherit python-r1 git-r3
 DESCRIPTION="A Honeypot for the SSH Service"
 HOMEPAGE="https://github.com/madirish/kojoney2"
 EGIT_REPO_URI="https://github.com/madirish/kojoney2.git"
+EGIT_COMMIT="v${PV}"
 #SRC_URI="https://github.com/madirish/kojoney2/archive/master.zip"
 
 LICENSE="GPL-2"
