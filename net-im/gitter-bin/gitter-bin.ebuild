@@ -19,21 +19,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="Doc"
 
-UDEV_V=198
-
 DEPEND="app-arch/dpkg"
 RDEPEND="net-libs/nodejs"
 
 S=${WORKDIR}
 
 QA_PREBUILT="usr/lib*/${MY_PN}/*"
-
 src_install() {
-	distutils-r1_src_install
-	use doc && dodoc -r docs/*
-}
+	insinto /opt/gitter/linux64
+	doins -r *
 
+	fperms +x /opt/gitter/linux64
+
+	dobin "${FILESDIR}/opt/gitter/linux64"
+	dosym /opt/Gitter/linux64/Gitter /usr/local/bin/gitter
+
+	make_desktop_entry gitter Gitter \
+		"/opt/gitter/linux64logo.png" \
+		Network
+	distutils-r1_src_install
+	use doc && dodoc -r /usr/share/doc/gitter/*	
 	echo sid > "${D}"/etc/debian_version || die
+}
 
 }
 pkg_postinst() {
