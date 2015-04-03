@@ -9,10 +9,9 @@ inherit multilib unpacker
 MY_PV=${PV/_p/-}
 MY_PN=${PN%%-bin-debian}
 
-DESCRIPTION="gitter IM Debian binary"
+DESCRIPTION="gitter IM Client"
 HOMEPAGE="https://gitter.im/apps"
-SRC_URI="https://update.gitter.im/linux64/latest
-https://update.gitter.im/linux32/latest"
+SRC_URI="$https://github.com/gitterHQ/desktop/archive/{PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
