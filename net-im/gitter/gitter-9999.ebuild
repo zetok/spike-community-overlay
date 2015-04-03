@@ -4,14 +4,15 @@
 
 EAPI="3"
 
-inherit multilib gitr3
+inherit multilib distutils git-r3
 
 MY_PV=${PV/_p/-}
 MY_PN=${PN%%-bin-debian}
 
 DESCRIPTION="gitter IM Client"
 HOMEPAGE="https://gitter.im/apps"
-SRC_URI="$https://github.com/gitterHQ/desktop/archive/{PN}/${P}.tar.gz"
+SRC_URI=""
+EGIT_REPO_URI="https://github.com/gitterHQ/desktop.git"
 
 LICENSE="MIT"
 SLOT="0"
