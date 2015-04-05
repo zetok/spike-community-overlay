@@ -31,3 +31,7 @@ before_script:
 script:
     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman full -d"
 # You can append own scripts after this line
+repoman manifest
+repoman full
+repoman commit
+repoman -m "Version bump" commit
