@@ -30,10 +30,7 @@ before_script:
     - cd travis-overlay
 script:
     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman scan"
-    - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman manifest -d"
-    - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman full -d"
-     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman commit -d"
-     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman -m "Version bump" commit"
+
 # You can append own scripts after this line
 
 
