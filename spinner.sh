@@ -29,9 +29,9 @@ before_script:
     - if ! cmp -n $SIZE -s .travis.yml .travis.yml.upstream; then  echo -e "\e[31m !!! .travis.yml outdated! Update available https://github.com/mrueg/repoman-travis \e[0m" > /tmp/update ; fi
     - cd travis-overlay
 script:
-    - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman full -d"
-# You can append own scripts after this line
-    - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman manifest
+        - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman manifest
     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman full
     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman commit
     - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman -m "Version bump" commit
+    - ./../spinner.sh "./../portage-${PORTAGE_VER}/bin/repoman full -d"
+# You can append own scripts after this line
