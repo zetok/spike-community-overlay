@@ -43,3 +43,10 @@ Channel: *#spike-pentesting*
 <br>Channel: *#spike-pentesting-dev*  dev-chat &  Server Build or push : reports pasite.org go here.... 
 
 layman -f -a https://raw.githubusercontent.com/Sabayon-Labs/spike-community-overlay/master/overlays.xml
+
+## more Blue Team or Seucrity defensive package or enhanced privacy apps 
+pull requests always welcome.
+layman -f -a spike -o https://raw.githubusercontent.com/Sabayon-Labs/Templar-overlay/master/overlay.xml
+## Unstable or works in Progress are  being moved to Spike-RISE 
+anyone is free to enhance these (pulls or etc acepted) 
+layman -f -a spike -o https://raw.githubusercontent.com/Sabayon-Labs/Spike-Rise/master/overlay.xml
