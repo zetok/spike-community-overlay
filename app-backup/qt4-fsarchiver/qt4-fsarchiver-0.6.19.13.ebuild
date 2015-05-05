@@ -46,8 +46,8 @@ src_prepare() {
 		|| die "sed on ${PN}.pro failed"
 }
 
-src_compile() {
-	eqmake4
+src_configure() {
+	eqmake
 }
 
 src_install() {
