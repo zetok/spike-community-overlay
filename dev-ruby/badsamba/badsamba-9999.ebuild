@@ -1,7 +1,7 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: ~~Necrose99 Spike-pentesting.org https://github.com/Sabayon-Labs/spike-community-overlay
-
+# $Header: ~~Necrose99 Spike-pentesting.org https://github.com/Sabayon-Labs/spike-community-overlay (dead)
+(dead)
 EAPI="5"
 
 DESCRIPTION="This module is used to exploit startup script execution of windows GPOL. on SMB shares "
